@@ -17,5 +17,3 @@ data_registry_client = quartz.DataRegistryClient(quartz.PRODUCTION_DATA_REGISTRY
 print("Successfully set up clients")
 
 quartzRunInfo = data_registry_client.get_run(runID)
-
-testing
